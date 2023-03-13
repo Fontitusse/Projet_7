@@ -5,17 +5,16 @@ import colors from '../../utils/style/colors'
 export default function Card({id, title, cover}) {
 
 	return (
-		<CardContainer>
-		<Link to={`/Location/${id}`} className="flexbox">
+		
+		<CardContainerLink to={`/Logements/${id}`} className="flexbox">
 			<img src={cover} alt={title} />
 			<h3>{title}</h3>	
-		</Link>
-		</CardContainer>
+		</CardContainerLink>
 	)
 }
 
 
-const CardContainer = styled.div`
+const CardContainerLink = styled(Link)`
 	position: relative;
     width: 30%;
     height: 340px;

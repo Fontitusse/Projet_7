@@ -16,9 +16,10 @@ export default function Error() {
   );
 }
 
-const ErrorPage = styled.div`
+const ErrorPage = styled.div` 
     font-family: 'Montserrat';
-    max-width: 95%;
+    max-width: 1440px;
+    padding-top: 40px;
     margin: 0 auto;
     padding-bottom: 40px;
     color: ${colors.secondary};
@@ -42,7 +43,7 @@ const ErrorPage = styled.div`
             font-weight: 500;
             font-size: clamp(20px, 4vw, 36px);
             text-align: center;
-            margin-bottom:14%;
+            margin-bottom:13%;
             @media screen and (max-width: 768px) {
               margin:0 5% 35% 5%;    
           }
