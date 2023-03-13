@@ -22,7 +22,7 @@ const UlHeader = styled.ul`
     gap: 50px;
     font-size: clamp(12px, 2.5vw, 24px);
     @media screen and (max-width: 700px){
-        gap: 20px;
+        gap: 10px;
     }
 `
 
@@ -35,5 +35,8 @@ const LinkHeader = styled(Link)`
         color: ${colors.secondary};
         transition: all 0.2s ease-in-out;
         text-decoration: underline solid ${colors.secondary}; 
+    }
+    @media screen and (max-width: 700px){
+        text-transform: uppercase;
     }
 `

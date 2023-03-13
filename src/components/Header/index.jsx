@@ -24,4 +24,9 @@ const HeaderContainer = styled.header`
     @media screen and (max-width: 900px){
         height: 40px;
     }
+    img {
+        @media screen and (max-width: 900px){
+            width:50%;
+        }
+    }
 `
